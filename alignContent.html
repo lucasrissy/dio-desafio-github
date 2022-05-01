@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - align Content</title>
+  <style>
+    .container{
+      height: 500px;
+      max-width: 300px;
+      display:flex;
+      flex-wrap: wrap;
+      border: 1px solid black;
+    }
+    .item{
+      background-color: orangered;
+      padding: 5px;
+      flex: 1;
+      text-align: center;
+      color: white;
+      margin: 5px;
+      border: 1px solid black;
+    }
+    .center{
+      align-content: center;
+    }
+    .flex-start{
+      align-content:flex-start ;
+    }
+    .flex-end{
+      align-content:flex-end
+    };
+    .space-around{
+      align-content:space-around;
+    }
+    .space-between{
+      align-content:space-between;
+    }
+
+  </style>
+</head>
+<body>
+  <p>Stretch</p>
+  <div class="container">
+    <div class="item">Lucas Rissi David de Andrade</div>
+    <div class="item">Lucas Rissi</div>
+    <div class="item">1</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto autem ex dolor vero officiis? Beatae non id fuga sunt voluptatibus, quos cum, voluptatem ut, velit necessitatibus repellendus alias odio.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+  </div>
+
+  <p>Center</p>
+  <div class="container center">
+    <div class="item">Lucas Rissi David de Andrade</div>
+    <div class="item">Lucas Rissi</div>
+    <div class="item">1</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto autem ex dolor vero officiis? Beatae non id fuga sunt voluptatibus, quos cum, voluptatem ut, velit necessitatibus repellendus alias odio.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+  </div>
+
+  <p>Flex-Start</p>
+  <div class="container flex-start">
+    <div class="item">Lucas Rissi David de Andrade</div>
+    <div class="item">Lucas Rissi</div>
+    <div class="item">1</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto autem ex dolor vero officiis? Beatae non id fuga sunt voluptatibus, quos cum, voluptatem ut, velit necessitatibus repellendus alias odio.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+  </div>
+
+  <p>Flex-end</p>
+  <div class="container flex-end">
+    <div class="item">Lucas Rissi David de Andrade</div>
+    <div class="item">Lucas Rissi</div>
+    <div class="item">1</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto autem ex dolor vero officiis? Beatae non id fuga sunt voluptatibus, quos cum, voluptatem ut, velit necessitatibus repellendus alias odio.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+  </div>
+
+  <p>Space-around</p>
+  <div class="container space-around">
+    <div class="item">Lucas Rissi David de Andrade</div>
+    <div class="item">Lucas Rissi</div>
+    <div class="item">1</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto autem ex dolor vero officiis? Beatae non id fuga sunt voluptatibus, quos cum, voluptatem ut, velit necessitatibus repellendus alias odio.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+  </div>
+
+  <p>Space-between</p>
+  <div class="container space-between">
+    <div class="item">Lucas Rissi David de Andrade</div>
+    <div class="item">Lucas Rissi</div>
+    <div class="item">1</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto autem ex dolor vero officiis? Beatae non id fuga sunt voluptatibus, quos cum, voluptatem ut, velit necessitatibus repellendus alias odio.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+  </div>
+</body>
+</html>
