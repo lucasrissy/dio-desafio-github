@@ -1,3 +1,8 @@
 Anotações Aula
 
--Comandos:
+-Comandos para enviar atualizações para o meu repositório remoto:
+
+- git status para verificar se identificou algo novo no meu repositório;
+- git add . : para adicionar esses elementos ao meu repositório local;
+- git commit -m: para fazer o commit dessas atualizações;
+- git push origin: para fazer o "empurrar" para o meu repositório remoto;
